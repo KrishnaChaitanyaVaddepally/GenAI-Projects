@@ -27,7 +27,7 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         '''
-        This function si responsible for data trnasformation
+        This function is used for data transformation
         
         '''
         try:
@@ -82,7 +82,7 @@ class DataTransformation:
             train_df=pd.read_csv(train_path)
             test_df=pd.read_csv(test_path)
 
-            logging.info("Read train and test data completed")
+            logging.info("Reading train and test data is completed")
 
             logging.info("Obtaining preprocessing object")
 
